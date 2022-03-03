@@ -1,6 +1,5 @@
 from wsgiref.validate import validator
 
-
 dias = int(input())
 km = int(input())
 

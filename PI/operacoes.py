@@ -1,6 +1,3 @@
-from socket import SOMAXCONN
-
-
 n1 = float(input())
 n2 = float(input())
 soma = n1+n2
