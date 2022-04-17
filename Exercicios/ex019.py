@@ -1,8 +1,8 @@
-import random
+from random import choice
 aluno1 = input('Primeiro aluno: ')
 aluno2 = input('Segundo aluno: ')
 aluno3 = input('Terçeiro aluno: ')
 aluno4 = input('Quarto aluno: ')
 lista = [aluno1,aluno2,aluno3,aluno4]
-escolhido = random.choice(lista)
+escolhido = choice(lista)
 print('O aluno escolhido foi o {}'.format(escolhido))
