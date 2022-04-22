@@ -1,13 +1,8 @@
-num = input('Informe seis números: ').split()
-a = int(num[0])
-b = int(num[1])
-c = int(num[2])
-d = int(num[3])
-e = int(num[4])
-f = int(num[5])
-s = 0
-
-for c in range(a, f+1):
-    if c % 2 == 0:
-        s += c
-print(s)
+soma = 0
+cont = 0
+for c in range(1,7):
+    num = int(input(f'Digite o {c}° valor: '))
+    if num % 2 == 0:
+        soma += num
+        cont += 1
+print(f'Você informou {cont} números pares e a soma foi {soma}')
